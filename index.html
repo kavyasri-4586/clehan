@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clahan Technologies eCommerce</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Clahan Technologies</h1>
+            <nav>
+                <ul>
+                    <li><a href="#men">Men</a></li>
+                    <li><a href="#women">Women</a></li>
+                    <li><a href="#sports">Sports</a></li>
+                    <li><a href="#electronics">Electronics</a></li>
+                    <li><a href="#mobiles">Mobiles</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to Clahan Technologies</h2>
+            <p>Founded in 2024, Clahan Technologies is dedicated to providing value-driven products that enhance your lifestyle. Explore our diverse range of categories and find what you need!</p>
+        </section>
+
+        <section id="men" class="product-category">
+            <h2>Men's Fashion</h2>
+            <img src="images/men.jpeg" alt="Men's Fashion" class="category-image">
+        </section>
+
+        <section id="women" class="product-category">
+            <h2>Women's Fashion</h2>
+            <img src="images/women.jpeg" alt="Women's Fashion" class="category-image">
+        </section>
+
+        <section id="sports" class="product-category">
+            <h2>Sports Gear</h2>
+            <img src="images/sports.jpeg" alt="Sports Gear" class="category-image">
+        </section>
+
+        <section id="electronics" class="product-category">
+            <h2>Electronics</h2>
+            <img src="images/electronic.jpeg" alt="Laptops" class="category-image">
+        </section>
+
+        <section id="mobiles" class="product-category">
+            <h2>Mobile Phones</h2>
+            <img src="images/mobiles.jpeg" alt="Mobile Phones" class="category-image">
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Clahan Technologies. All rights reserved.</p>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
